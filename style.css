@@ -740,7 +740,55 @@ body {
   }
 }
 
+
+
 @media screen and (max-width: 400px) {
+  #circle1 {
+    position: absolute;
+    height: 160px;
+    width: 160px;
+    background: linear-gradient(
+      322.87deg,
+      #65ceb4 14.54%,
+      rgba(186, 253, 255, 0.32) 52.82%
+    );
+    opacity: 0.5;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    transform: translate(400px, -90px) rotateZ(150deg);
+  }
+  
+  #circle2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(43px, 70px);
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(
+      322.87deg,
+      #65ceb4 14.54%,
+      rgba(186, 253, 255, 0.32) 52.82%
+    );
+    opacity: 0.45;
+    border-radius: 50%;
+  }
+  
+  #circle3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(-190px, -120px) rotateZ(90deg);
+    height: 320px;
+    width: 320px;
+    background: linear-gradient(
+      322.87deg,
+      #65ceb4 14.54%,
+      rgba(186, 253, 255, 0.32) 52.82%
+    );
+    border-radius: 50%;
+    border: 1px solid transparent;
+  }
   .hero h1 {
     font-size: 2.15em;
     letter-spacing: 0;
